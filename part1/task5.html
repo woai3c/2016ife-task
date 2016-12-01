@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <head>
 	<meta charset="utf-8">
-	<title>task2</title>
+	<title>task5</title>
 	<style type="text/css">
 		* {
 			margin: 0;
@@ -33,13 +33,6 @@
 		ul#nav a:visited { color: white; }
 		ul#nav a:hover { color: red; }
 		ul#nav a:active { color: red; } 
-		
-		div.article {
-			background-color: #fff;
-			margin: 20px;
-			padding: 15px;
-			box-shadow: 10px 10px 5px #888888;
-		}
 		
 		h2 { color: rgba(90,90,90,0.8); }
 		h5 { color: rgba(100,100,100,0.5); }
@@ -82,24 +75,24 @@
 		
 		#submit {
 			
-			width: 360%;
+			width: 250%;
 			background-color: #0000cc;
 			color: white;
 			border-radius: 15px;
 			height: 45px;
-			margin-left: -30%;
+			margin-left: 16%;
 		}
 		
 		a { text-decoration: none;}
 		
 		#table {
 			display: table;
-			margin-left: 10%;
-			width: 100%;
+			
 		}
 		
 		#table p {
 			display: table-cell;
+			
 			
 		}
 		
@@ -114,7 +107,7 @@
 		}
 		
 		h5.toleft {
-			margin-left: 2.5%;
+			margin-left: 12%;
 		}
 		
 		div#footer  {
@@ -123,6 +116,24 @@
 			background-color: #333;
 			height: 40px;
 			text-align: center;
+		}
+		div#aside {
+			background-color: #fff;
+			margin: 20px 32px 20px 20px;
+			padding: 15px;
+			right: 0;
+			top: 60px;
+			width: 410px;
+			position: absolute;
+			box-shadow: 10px 10px 5px #888888;
+			
+		}
+		
+		div.article {
+			background-color: #fff;
+			margin: 20px 500px 20px 20px;
+			padding: 15px;
+			box-shadow: 10px 10px 5px #888888;
 		}
 	</style>
 </head>
@@ -136,6 +147,65 @@
             <li><a href="https://github.com/woai3c">导航链接四</a></li>
         </ul>
     </div>
+	<div id="aside">
+		<h2>这里以后是一个侧栏，这是侧栏的标题</h2>
+		<form id="table" action="#" method="POST">
+            <div class="tableRow">
+				<p>请输入邮箱地址</p>
+				<p><input type="email"></p>
+			</div>
+			<div class="tableRow">
+				<p></p>
+				<h5 class="toleft">邮箱地址请按要求格式填入</h5>
+			</div>
+			<div class="tableRow">
+				<p>请输入密码</p>
+				<p><input type="password"></p>
+			</div>
+			<div class="tableRow">
+				<p>请重复输入密码</p>
+				<p><input type="password"></p>
+			</div>
+			<div class="tableRow">
+				<p></p>
+				<h5 class="toleft">密码请为6-16位英文数字</h5>
+			</div>
+			<div class="tableRow">
+				<p>性别</p>
+				<p>
+					<input type="radio" value="man">男
+					<input type="radio" value="woman">女
+				</p>
+			</div>
+			<div class="tableRow">
+				<p>城市</p>
+				<p>
+					<select>
+						<option value="北京">北京</option>
+						<option value="上海">上海</option>
+						<option value="广州">广州</option>
+						<option value="深圳">深圳</option>
+					</select>
+				</p>
+			</div>
+			<div class="tableRow">
+				<p>爱好</p>
+				<p>
+					<input type="checkbox" value="sport">运动
+					<input type="checkbox" value="art">艺术
+					<input type="checkbox" value="science">科学
+				</p>
+			</div>
+			<div class="tableRow">
+				<p style="vertical-align: top">个人描述</p>
+				<p>
+					<textarea style="resize:none" rows="5" cols="30"></textarea>
+				</p>
+			</div>
+			
+				<input id="submit" type="submit">
+        </form>
+	</div>
 	<div class="article">
 		<h1>文章一级标题</h1><br>
 		<h2>文章二级标题</h2><br>
@@ -229,65 +299,7 @@
 			</tr>
 		</table>
 	</div>
-	<div class="article">
-		<h2>这里以后是一个侧栏，这是侧栏的标题</h2>
-		<form id="table" action="#" method="POST">
-            <div class="tableRow">
-				<p>请输入邮箱地址</p>
-				<p><input type="email"></p>
-			</div>
-			<div class="tableRow">
-				<p></p>
-				<h5 class="toleft">邮箱地址请按要求格式填入</h5>
-			</div>
-			<div class="tableRow">
-				<p>请输入密码</p>
-				<p><input type="password"></p>
-			</div>
-			<div class="tableRow">
-				<p>请重复输入密码</p>
-				<p><input type="password"></p>
-			</div>
-			<div class="tableRow">
-				<p></p>
-				<h5 class="toleft">密码请为6-16位英文数字</h5>
-			</div>
-			<div class="tableRow">
-				<p>性别</p>
-				<p>
-					<input type="radio" value="man">男
-					<input type="radio" value="woman">女
-				</p>
-			</div>
-			<div class="tableRow">
-				<p>城市</p>
-				<p>
-					<select>
-						<option value="北京">北京</option>
-						<option value="上海">上海</option>
-						<option value="广州">广州</option>
-						<option value="深圳">深圳</option>
-					</select>
-				</p>
-			</div>
-			<div class="tableRow">
-				<p>爱好</p>
-				<p>
-					<input type="checkbox" value="sport">运动
-					<input type="checkbox" value="art">艺术
-					<input type="checkbox" value="science">科学
-				</p>
-			</div>
-			<div class="tableRow">
-				<p style="vertical-align: top">个人描述</p>
-				<p>
-					<textarea style="resize:none" rows="8" cols="50"></textarea>
-				</p>
-			</div>
-			
-				<input id="submit" type="submit">
-        </form>
-	</div>
+	
 	<div id="footer">
        <h3>版权所有©<h3>   
     </div>
