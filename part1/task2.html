@@ -1,0 +1,295 @@
+<!DOCTYPE html>
+<head>
+	<meta charset="utf-8">
+	<title>task2</title>
+	<style type="text/css">
+		* {
+			margin: 0;
+			padding: 0;
+			font-family: 微软雅黑;
+		}
+		
+		body { background-color: #d8d8d8; }
+		
+		div#header h1 {
+			color: white;
+			padding: 10px;
+		}
+		
+		div#header {
+			background-color: #333;
+			height: 60px;
+		}
+		
+		ul#nav {
+			position: absolute;
+			right: 2%;
+			top: 2%;
+		}
+		
+		ul#nav li { display: inline; }
+		
+		ul#nav a:link { color: white; }
+		ul#nav a:visited { color: gray; }
+		ul#nav a:hover { color: green; }
+		ul#nav a:active { color: red; } 
+		
+		div.article {
+			background-color: #fff;
+			margin: 20px;
+			padding: 15px;
+			box-shadow: 10px 10px 5px #888888;
+		}
+		
+		h2 { color: rgba(90,90,90,0.8); }
+		h5 { color: rgba(100,100,100,0.5); }
+		
+		p { text-indent: 2em; }
+		
+		#nav ul{
+			padding: 10px;
+        }		
+		#none {
+			list-style: none;
+			margin-left: 2%;
+		}
+		
+		ul li{
+			list-style: none;
+		}
+		
+		div.picture {
+			border: 1px solid;
+			padding: 10px;
+			text-align: center;
+			width: 120px;
+			margin: 1% 0 0 2%;
+		}
+		
+		ol#left { margin-left: 2%; }
+		
+		th {
+			background-color: black;
+			color: white;
+		}
+		
+		table {
+			width: 100%;
+			border-collapse: collapse;
+		}
+		
+		tr#color { background-color: #d8d8d8; }
+		
+		#submit {
+			
+			width: 360%;
+			background-color: #0000cc;
+			color: white;
+			border-radius: 15px;
+			height: 45px;
+			margin-left: -30%;
+		}
+		
+		a { text-decoration: none;}
+		
+		#table {
+			display: table;
+			margin-left: 10%;
+			width: 100%;
+		}
+		
+		#table p {
+			display: table-cell;
+			
+		}
+		
+		div.tableRow {
+			display: table-row;
+			
+		}
+		
+		div.tableRow p:first-child {
+			text-align: right;
+			padding-top: 10px;
+		}
+		
+		h5.toleft {
+			margin-left: 2.5%;
+		}
+		
+		div#footer  {
+			color: white;
+			padding-top: 15px;
+			background-color: #333;
+			height: 40px;
+			text-align: center;
+		}
+	</style>
+</head>
+<body>
+	<div id="header">
+        <h1>Test Html</h1>
+        <ul id="nav">
+            <li><a href="https://github.com/woai3c">导航链接一</a></li>
+            <li><a href="https://github.com/woai3c">导航链接二</a></li>
+            <li><a href="https://github.com/woai3c">导航链接三</a></li>
+            <li><a href="https://github.com/woai3c">导航链接四</a></li>
+        </ul>
+    </div>
+	<div class="article">
+		<h1>文章一级标题</h1><br>
+		<h2>文章二级标题</h2><br>
+		<h5>文章作者 文章发表时间</h5><br>
+		<p>	这是一个很长的段落这是一个很长的段落这是一个很长的段落这是一个很长的段落这是一个很长的段落这是一个很长的段落这是一个很长的段落这是一个很长的段落这是一个很长的段落这是一个很长的段落这是一个很长的段落这是一个很长的段落这是一个很长的段落这是一个很长的段落这是一个很长的段落换行了<br>这是一个很长的段落这是一个很长的段落这是一个很长的段落这是一个很长的段落这是一个很长的段落这是一个很长的段落这是一个很长的段落这是一个很长的段落这是一个很长的段落这是一个很长的段落这是一个很长的段落这是一个很长的段落这是一个很长的段落<a href="https://github.com/woai3c/task">这里有一个链接到我GITHUB的链接</a><br>
+		<img src="https://raw.githubusercontent.com/woai3c/task/master/picture/task2.jpg">
+	    </p><p>这是一个很长的段落这是一个很长的段落这是一个很长的段落这是一个很长的段落这是一个很长的段落这是一个很长的段落这是一个很长的段落这是一个很长的段落这是一个很长的段落
+		</p>
+	</div>
+	<div class="article">
+		<h1>文章一级标题</h1><br>
+		<h2>文章二级标题</h2><br>
+		<h5>文章作者 文章发表时间</h5><br>
+		<p>		 这是一个很长的段落这是一个很长的段落这是一个很长的段落这是一个很长的段落这是一个很长的段落这是一个很长的段落 这是一个很长的段落这是一个很长的段落这是一个很长的段落这是一个很长的段落这是一个很长的段落这是一个很长的段落这是一个很长的段落<a href="https://github.com/woai3c">这里有一个链接到我GITHUB的链接</a>
+		<p>这是一个很长的段落这是一个很长的段落这是一个很长的段落这是一个很长的段落这是一个很长的段落这是一个很长的段落这是一个很长的段落这是一个很长的段落这是一个很长的段落
+		</p>
+		<img src="https://raw.githubusercontent.com/woai3c/task/master/picture/task2.jpg"></p>
+		
+		<ul id="none">
+			<li>列表项目</li>
+			<li>列表项目</li>
+			<li>列表项目</li>
+		</ul>
+	</div>
+	<div class="article">
+		<h1>图片</h1><br>
+		<div class="picture">
+			<h3>好看的图片</h3>
+			<img src="https://raw.githubusercontent.com/woai3c/task/master/picture/task1.jpg">
+		</div>
+		<div class="picture">
+			<h3>好看的图片</h3>
+			<img src="https://raw.githubusercontent.com/woai3c/task/master/picture/task1.jpg">
+		</div>
+		<div class="picture">
+			<h3>好看的图片</h3>
+			<img src="https://raw.githubusercontent.com/woai3c/task/master/picture/task1.jpg">
+		</div>
+		<div class="picture">
+			<h3>好看的图片</h3>
+			<img src="https://raw.githubusercontent.com/woai3c/task/master/picture/task1.jpg">
+		</div>
+		<div class="picture">
+			<h3>好看的图片</h3>
+			<img src="https://raw.githubusercontent.com/woai3c/task/master/picture/task1.jpg">
+		</div>
+		<div class="picture">
+			<h3>好看的图片</h3>
+			<img src="https://raw.githubusercontent.com/woai3c/task/master/picture/task1.jpg">
+		</div>
+	</div>
+	<div class="article">
+		<h1>最后一篇文章一级标题</h1><br>
+		<h2>文章二级标题</h2><br>
+		<h5>文章作者 文章发表时间</h5><br>
+		<ol id="left">
+			<li>排名1</li>
+			<li>排名2</li>
+			<li>排名3</li>
+		</ol>
+		<p>下面是一个表格</p>
+		<table border="1">
+			<tr>
+				<th>表头</th>
+				<th>表头</th>
+				<th>表头</th>
+			</tr>
+			<tr>
+				<td>表内容单元格</td>
+				<td>表内容单元格</td>
+				<td>表内容单元格</td>
+			</tr>
+			<tr>
+				<td>表内容单元格</td>
+				<td>表内容单元格</td>
+				<td>表内容单元格</td>
+			</tr>
+			<tr>
+				<td>表内容单元格</td>
+				<td>表内容单元格</td>
+				<td>表内容单元格</td>
+			</tr>
+			<tr>
+				<td>表内容单元格</td>
+				<td>表内容单元格</td>
+				<td>表内容单元格</td>
+			</tr>
+			<tr id="color">
+				<td>总计</td>
+				<td colspan="2">1000</td>
+			</tr>
+		</table>
+	</div>
+	<div class="article">
+		<h2>这里以后是一个侧栏，这是侧栏的标题</h2>
+		<form id="table" action="#" method="POST">
+            <div class="tableRow">
+				<p>请输入邮箱地址</p>
+				<p><input type="email"></p>
+			</div>
+			<div class="tableRow">
+				<p></p>
+				<h5 class="toleft">邮箱地址请按要求格式填入</h5>
+			</div>
+			<div class="tableRow">
+				<p>请输入密码</p>
+				<p><input type="password"></p>
+			</div>
+			<div class="tableRow">
+				<p>请重复输入密码</p>
+				<p><input type="password"></p>
+			</div>
+			<div class="tableRow">
+				<p></p>
+				<h5 class="toleft">密码请为6-16位英文数字</h5>
+			</div>
+			<div class="tableRow">
+				<p>性别</p>
+				<p>
+					<input type="radio" value="man">男
+					<input type="radio" value="woman">女
+				</p>
+			</div>
+			<div class="tableRow">
+				<p>城市</p>
+				<p>
+					<select>
+						<option value="北京">北京</option>
+						<option value="上海">上海</option>
+						<option value="广州">广州</option>
+						<option value="深圳">深圳</option>
+					</select>
+				</p>
+			</div>
+			<div class="tableRow">
+				<p>爱好</p>
+				<p>
+					<input type="checkbox" value="sport">运动
+					<input type="checkbox" value="art">艺术
+					<input type="checkbox" value="science">科学
+				</p>
+			</div>
+			<div class="tableRow">
+				<p style="vertical-align: top">个人描述</p>
+				<p>
+					<textarea style="resize:none" rows="8" cols="50"></textarea>
+				</p>
+			</div>
+			
+				<input id="submit" type="submit">
+        </form>
+	</div>
+	<div id="footer">
+       <h3>版权所有©<h3>   
+    </div>
+</body>
+</html>
