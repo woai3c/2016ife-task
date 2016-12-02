@@ -1,0 +1,346 @@
+body {
+	background-color: #767777;
+}
+#container {
+	background-color: #fff;
+}
+* {
+    margin: 0;
+    padding: 0;
+}
+div#container {
+	margin: auto;
+	width: 980px;
+	height: 1386;
+}
+div#header {
+	width: 110px;
+	height: 61px;
+	background-color: #cc0033;
+	margin: 0 44px;
+}
+div#header #headtext {
+	position: relative;
+	top: 45px;
+	left: 8px;
+	color: #fff;
+	font: 12px 黑体;
+}
+div#header #date {
+	color: #d45d5c;
+	font: 12px 黑体;
+	position: relative;
+	top: 30px;
+	left: 850px;
+}
+div#headline {
+	width: 892px;
+	height: 2px;
+	background-color: #938e8c;
+	margin: 0 44px;
+}
+div#part1 {
+	height: 301px;
+	position: relative;
+	top: 30px;
+}
+div#topPicture {
+	margin: 44px;
+	position: absolute;
+	top: -44px;
+}
+div#topright {
+	position: absolute;
+	height: 301px;
+	width: 230px;
+	left: 732px;
+}
+div#rightline {
+	width: 203px;
+	height: 2px;
+	background-color: #cc8091;
+}
+div#mark1 {
+	width: 191px;
+	height: 301px;
+	background-color: #2E8B57;
+	opacity: 0.5;
+	position: absolute;
+	top: 0px;
+}
+div#mark2 {
+	width: 191px;
+	height: 301px;
+	background-color: #CD5C5C;
+	opacity: 0.5;
+	position: absolute;
+	top: 0px;
+	left: 449px;
+}
+h2.one {
+	font: small-caps 24px 微软雅黑;
+	color: #000;
+	text-decoration: underline;
+	line-height: 40px;
+	text-transform: capitalize;
+}
+p.two  {
+	font: 12px 楷体;
+	line-height: 10px;
+	color: #676767;
+}
+span.three {
+	font: italic 116px 微软雅黑;
+	color: #75b86b;
+	margin-left: -7%;
+}
+p.four {
+	font: 55px 微软雅黑;
+	color: #cc8091;
+	position: absolute;
+	top: 240px;
+}
+p.five  {
+	font: 21px 微软雅黑;
+	color: #cc8091;
+	position: absolute;
+	top: 265px;
+	left: 80px;
+}
+p.six  {
+	font: 12px 微软雅黑;
+	color: #cc8091;
+	position: absolute;
+	left: 80px;
+	top: 285px;
+}
+div#part2 {
+	position: relative;
+	top: px;
+	margin: 44px;
+	height: 180px;
+}
+div#what {
+	width: 200px;
+	display: inline-block;
+	font: 12px 宋体;
+	line-height: 16px;
+	color: #767777;
+
+}
+div#when {
+	width: 200px;
+	display: inline-block;
+	font: 12px 微软雅黑;
+	line-height: 16px;
+	color: #231815;
+	opacity: 0.7;
+	margin-left: 10px;
+}
+div#how {
+	width: 200px;
+	display: inline-block;
+	font: 12px 微软雅黑;
+	line-height: 16px;
+	color: #231815;
+	opacity: 0.7;
+	margin-left: 10px;
+}
+div#what h2 {
+	font: bold 16px 微软雅黑;
+	color: #418c59;
+	text-decoration: underline;
+}
+div#when h2 {
+	font: bold 16px 微软雅黑;
+	color: #d2994f;
+	text-decoration: underline;
+}
+div#how h2 {
+	font: bold 16px 微软雅黑;
+	color: #cc7680;
+	text-decoration: underline;
+}
+div#how  span {
+	font-size: italic 12px 微软雅黑;
+	color: #cd4a48;
+	line-height: 16px;
+	opacity: 0.7;
+}
+div#part3 {
+	position: relative;
+	top: 20px;
+	margin: 44px;
+	width: 641px;
+}
+div#lowerleft {
+	display: inline-block;
+	width: 415px;
+	position: absolute;
+	top: 0px;
+	height: 600px;
+}
+#centerline {
+	width: 415px;
+	height: 2px;
+	background-color: #11456b;
+}
+div#introduce #one {
+	font: italic bold 72px 黑体;
+	color: #f5e327;
+}
+div#introduce {
+	font: bold 42px 黑体;
+	color: #11456b;
+	line-height: 16px
+}
+p#it {
+	font: bold 33px 黑体;
+	color: #11456b;
+}
+div#lower {
+	font: 12px 宋体;
+	color: #767777;
+	line-height: 16px;
+}
+div#lower #two {
+	font: 70px 微软雅黑;
+	color: #f5e327;
+	float: left;
+	line-height:80%;
+	margin: 10px;
+}
+#small {
+	float: right;
+	margin: 20px 0 20px 20px;
+}
+p.indent  {
+	text-indent: 2em;
+}
+div#lowerright {
+	display: inline-block;
+	width: 458px;
+	position: absolute;
+	top: 10px;
+	left: 433px;
+	height: 615px;
+}
+div#house1 {
+	width: 458px;
+	height: 61px;
+	opacity: 0.5;
+	background-color: #808080;
+	position: absolute;
+	top: 213px;
+}
+div#house2 {
+	width: 3px;
+	height: 44px;
+	background-color: #72b16a;
+	position: absolute;
+	top: 222px;
+	left: 40px;
+}
+p#house3  {
+	font: 26px 微软雅黑;
+	color: #fff;
+	position: absolute;
+	top: 224px;
+	left: 55px;
+}
+p#house4  {
+	font: italic 12px 微软雅黑;
+	color: #72b16a;
+	letter-spacing: 140%;
+	position: absolute;
+	top: 240px;
+	left: 170px;
+}
+div#lowertext {
+	width: 459px;
+	height: 318px;
+	background-color: #F5DEB3; 
+	position: absolute;
+	top: 290px;
+}
+div#lowertext >p{
+	font: 16px 宋体;
+	line-height: 20px;
+	text-indent: 2em;
+}
+div#redblock {
+	width: 260px;
+	height: 160px;
+	background-color: #cc0033;
+	position: absolute;
+	top: 158px;
+}
+p#p1 {
+	font: 110px 微软雅黑;
+	color: #fff;
+	position: absolute;
+	left: 10px;
+	top: 3px;
+}
+div#su {
+	width: 2px;
+	height: 86px;
+	background-color: #fff;
+	position: absolute;
+	top: 35px;
+	left: 80px;
+}
+p#p2 {
+	font:italic 21px 黑体;
+	color: #fff;
+	line-height: 24px;
+	position: absolute;
+	top: 40px;
+	left: 90px;
+}
+p#p3 {
+	font: 12px 黑体;
+	color: #fff;
+	line-height: 6px;
+	position: absolute;
+	top: 95px;
+	left: 93px;
+}
+p#hello {
+	font: italic 14px 黑体;
+	color: #5a5b5b;
+	line-height: 16px;
+	position: absolute;
+	top: 165px;
+	left: 268px;
+}
+p#hello span {
+	font: 72px "黑体";
+	color: #d45d5c;
+}
+#markone {
+	float: left;
+	margin: -10px -16px -2px -72px;
+	height: 20px;
+}
+#marktwo {
+	float: right;
+	position: absolute;
+	left: 120px;
+}
+div#footer {
+	width: 892px;
+	height: 1px;
+	background-color: #938e8c;
+	margin: 0 44px;
+	position: relative;
+	bottom: 110px;
+	top: 680px;
+}
+p#last {
+	font: 12px 黑体;
+	color: #d45d5c;
+	position: absolute;
+	right: 0px;
+	bottom: -15px;
+}
