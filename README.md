@@ -7,3 +7,4 @@
 四:http://htmlpreview.github.com/?https://github.com/woai3c/task/blob/master/part1/task4.html
 五:http://htmlpreview.github.com/?https://github.com/woai3c/task/blob/master/part1/task5.html
 六:http://htmlpreview.github.com/?https://github.com/woai3c/task/blob/master/part1/task6/task6.html
+七:http://htmlpreview.github.com/?https://github.com/woai3c/task/blob/master/part1/task7/task7.html
