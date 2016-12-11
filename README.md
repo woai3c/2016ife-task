@@ -9,3 +9,4 @@
 六:http://htmlpreview.github.com/?https://github.com/woai3c/task/blob/master/part1/task6/task6.html
 七:http://htmlpreview.github.com/?https://github.com/woai3c/task/blob/master/part1/task7/task7.html
 八:http://htmlpreview.github.com/?https://github.com/woai3c/task/blob/master/part1/task8.html
+九:http://htmlpreview.github.com/?https://github.com/woai3c/task/blob/master/part1/task9/task9.html
