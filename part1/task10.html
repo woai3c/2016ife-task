@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<style>
+	#container {
+		box-sizing: border-box;
+		width: 100%;
+		padding: 20px;
+		height: 400px;
+		display: flex;
+		align-items: center;
+		justify-content: space-between;
+		border: 1px solid #a8a8a8;
+	}
+	.col {
+		border: 1px solid red;
+		width: 150px;
+	}
+	.col-1 {
+		height: 120px;
+	}
+	.col-2 {
+		height: 100px;
+	}
+	.col-3 {
+		height: 40px;
+	}
+	.col-4 {
+		height: 200px;
+		border: 1px solid blue;
+	}
+	@media all and (max-width: 640px) {
+		.col-4 {
+			order: -1;
+		}
+		#container {
+			flex-wrap: wrap;
+		}
+	}
+	</style>
+</head>
+<body>
+	<div id="container">
+		<div class="col col-1"></div>
+		<div class="col col-2"></div>
+		<div class="col col-3"></div>
+		<div class="col col-4"></div>
+	</div>
+</body>
+</html>
