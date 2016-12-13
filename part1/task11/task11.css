@@ -1,0 +1,229 @@
+html {
+	font-size: 70%;
+}
+* {
+	margin: 0;
+	padding: 0;
+	font-family: 微软雅黑;
+}
+img {
+	width: 100%;
+	height: 100%;
+}
+header #head {
+	background: #91d4da;
+	width: 100%;
+	height: 5rem;
+	color: #fff;
+	font: 2.3rem 宋体;
+	line-height: 5rem;
+	text-align: center;
+}
+header #head span:first-child {
+	font-size: 2rem;
+	cursor: pointer;
+}
+header #head .left {
+	position: absolute;
+	left: 0;
+}
+header ul {
+	font-size: 0px;
+	list-style: none;
+	width: 100%;
+	height: 5rem;
+	position: relative;
+}
+header ul li {
+	box-sizing: border-box;
+	line-height: 5rem;
+	width: 20%;
+	height: 5rem;
+	font-size: 2rem;
+	text-align: center;
+	display: inline-block;
+	cursor: pointer;
+}
+header ul #move {
+	position: absolute;
+	top: 5rem;
+	left: 0;
+	height: 0;
+	border: 3px solid #91d4da;
+	transition: left 0.4s ease-in-out;
+}
+header ul li:nth-child(1):hover~#move {
+	left: 0;
+}
+header ul li:nth-child(2):hover~#move {
+	left: 20%;
+}
+header ul li:nth-child(3):hover~#move {
+	left: 40%;
+}
+header ul li:nth-child(4):hover~#move {
+	left: 60%;
+}
+header ul li:nth-child(5):hover~#move {
+	left: 80%;
+}
+header img {
+	position: relative;
+	top: 0.33rem;
+}
+article #part1 {
+	width: 95%;
+	height: 9rem;
+	margin: auto;
+	position: relative;
+	top: 1rem;
+	border-bottom: 3px solid #d3d3d3;
+}
+article #part1 ul {
+	list-style: none;
+	font-size: 0;
+	text-align: center;
+}
+article #part1 ul  li {
+	display: inline-block;
+	width: 17%;
+	box-sizing: border-box;
+	height: 5.3rem;
+	font-size: 1.5rem;
+	padding-top: 1rem;
+	transition: color 0.4s ease-in-out;
+	margin-right: 2%;
+}
+article #part1 ul  li:hover {
+	color: #E53C3C;
+}
+article #part2 {
+	width: 95%;
+	height: 15rem;
+	margin: 5% auto 0 auto;
+	border-bottom: 2rem solid rgba(211,211,211,0.2);
+}
+article #part2 ul {
+	list-style: none;
+	font-size: 0;
+	text-align: center;
+}
+article #part2 ul  li {
+	display: inline-block;
+	width: 33.33%;
+	box-sizing: border-box;
+	height: 9rem;
+	font-size: 2rem;
+	padding-top: 0.3rem;
+}
+article #part2 ul  li span:last-child {
+	font-size: 1.5rem;
+	font-weight: 300;
+}
+article #part2 ul .border-right {
+	border-right: 3px solid #d3d3d3;
+}
+article #part3 {
+	width: 100%;
+}
+article #part3 .module {
+	width: 100%;
+	border-bottom: 2rem solid rgba(211,211,211,0.2);
+}
+article #part3 .module-1 {
+	width: 90%;
+	margin: auto;
+}
+article #part3 .module-1 p {
+	font-size: 2rem;
+}
+article #part3 .module-1 hr {
+	border: 1px solid #d3d3d3;
+}
+article #part3 .module-1 ul , .module-1 ul ol{
+	list-style: none;
+}
+article #part3 .module-1 img {
+	width: 100%;
+	height: 42%;
+}
+article #part3 .module-1 ul >li {
+	display: inline-block;
+	width: 32%;
+	height: 18rem;
+	vertical-align: top;
+	text-align: center;
+	margin-right: 1%;
+}
+article #part3 .module-1 ol >li {
+	font-size: 1.5rem;
+	height: 4rem;
+	line-height: 4rem;
+	margin-bottom: 4%;
+	background: rgba(211,211,211,0.2);
+	width: 100%;
+}
+article #part3 img {
+	margin-bottom: 1rem; 
+	border: 2px solid #F4A460;
+}
+article #part3 .module-1 .bear {
+	width: 30%;
+	margin-left: 1%;
+}
+article #part3 .module-1 .li-3 {
+	margin-right: 0;
+}
+article #part4 {
+	width: 100%;
+}
+article #part4 .module {
+	width: 100%;
+	height: 9rem;
+	border-bottom: 3px solid rgba(211,211,211,0.3);
+}
+article #part4 .module ul {
+	width: 90%;
+	list-style: none;
+}
+article #part4 .module ul li {
+	display: inline-block;
+	height: 7rem;
+	vertical-align: top;
+	font-size: 1rem;
+	color: #a8a8a8;
+	margin: 4% 0 0 6%;
+}
+article #part4 .module ul li:first-child {
+	width: 30%;
+}
+article #part4 .module ul li:last-child {
+	width: 56.5%;
+}
+article #part4 .module ul li h1 {
+	font-size: 1.5rem;
+	color: #666;
+}
+article #part 5 {
+	width: 100%;
+}
+article #part5 .module {
+	font-size: 1rem;
+	color: #a8a8a8;
+	line-height: 50px;
+	margin-left: 10%;
+}
+article #part5 .module h1 {
+	font-size: 1.5rem;
+	color: #666;
+	line-height: 6rem;
+}
+article #part5 .module img {
+	width: 30%;
+	height: 33%;
+}
+article #part6 {
+	width: 100%;
+	height: 3rem;
+	background: rgba(211,211,211,0.2);
+}
