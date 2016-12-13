@@ -1,6 +1,33 @@
-html {
-	font-size: 70%;
+@media (max-width: 320px) {
+	html {
+		font-size: 62.5%;
+	}
+}	
+@media (min-width: 321px) and (max-width: 360px) {
+	html {
+		font-size: 70%;
+	}
 }
+@media (min-width: 361px) and (max-width: 414px) {
+	html {
+		font-size: 80%;
+	}
+}	
+@media (min-width: 415px) and (max-width: 435px) {
+	html {
+		font-size: 90%;
+	}
+}	
+@media (min-width: 600px) and (max-width: 768px) {
+	html {
+		font-size: 120%;
+	}
+}	
+@media (min-width: 1000px) {
+	html {
+		font-size: 200%;
+	}
+}		
 * {
 	margin: 0;
 	padding: 0;
