@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>UI组件之日历组件（一）</title>
+	<style>
+		table {
+			border-collapse: collapse;
+			text-align: center;
+			font-size: 20px;
+			font-family: 微软雅黑;
+			border: 1px solid #d3d3d3;
+			margin-top: 10px;
+		}
+		td, th {
+			width: 60px;
+			height: 30px;
+		}
+		.hover:hover {
+			background: red;
+			color: #fff;
+		}
+		td:first-child {
+			color: red;
+		}
+		td:last-child {
+			color: red;
+		}
+		td {
+			cursor: pointer;
+			color: #555;
+		}
+		.span {
+			cursor: pointer;
+			user-select:none;
+		}
+		#currentDate {
+			margin: 0 30px;
+		}
+		caption {
+			background: red;
+			color: #fff;
+			padding: 10px 0;
+		}
+	</style>
+</head>
+<body>
+	<input id="date">
+	<table id="tab">
+		<caption>
+			<span class="span" title="上一月">&lt;</span>
+			<span class="span" title="上一年">&lt;</span>
+			<span id="currentDate"></span>
+			<span class="span" title="下一年">&gt;</span>
+			<span class="span" title="下一月">&gt;</span>
+		</caption>
+		<thead>
+			<tr>
+				<th>Sun</th>
+				<th>Mon</th>
+				<th>Tue</th>
+				<th>Wed</th>
+				<th>Thu</th>
+				<th>Fri</th>
+				<th>Sat</th>
+			</tr>
+		</thead>
+		<tbody>
+		
+		</tbody>
+	</table>
+<script src="task40.js"></script>
+</body>
+</html>

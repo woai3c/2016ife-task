@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>JavaScript和树（四）</title>
+	<style>
+		div {
+			border: 1px solid black;
+			box-sizing: border-box;
+			display: flex;
+			justify-content: space-between;
+			flex-direction: column;
+			margin: 8px 8%;
+			background: #fff;
+			padding: 3px;
+			width: 84%;
+		}
+		#container {
+			margin: auto;
+			border: none;
+		}
+		#root {
+			width: 600px;
+		}
+	    .child {
+			display: none;
+		}
+	</style>
+</head>
+<body>
+	<button id="pre">前序搜索</button>
+	<button id="last">后序搜索</button>
+	<button id="wide">广度搜索</button><br><br>
+	<input id="searchVal">
+	<p>输入查询值 然后选择"前后广"其中一种方式开始查询</p>
+	<input id="nodeVal">
+	<button id="addNode">添加节点</button>
+	<button id="delNode">删除节点</button>
+<div id="container">
+	<div id="root">
+		+地球
+		<div class="child1">
+			+亚洲
+			<div class="child">
+				+中国
+				<div class="child">-北京</div>
+				<div class="child">-天津</div>
+				<div class="child">-上海</div>
+			</div>
+			<div class="child">
+				+韩国
+				<div class="child">-首尔</div>
+				<div class="child">-釜山</div>
+			</div>
+			<div class="child">
+				+日本
+				<div class="child">-东京</div>
+				<div class="child">-大坂</div>
+			</div>
+		</div>
+		<div class="child1">
+			+欧洲
+			<div class="child">
+				+英国
+				<div class="child">-伦敦</div>
+
+			</div>
+			<div class="child">
+				+法国
+				<div class="child">-巴黎</div>
+			</div>
+		</div>
+		<div class="child1">
+			+北美洲
+			<div class="child">
+				-美国
+			</div>
+			<div class="child">
+				-加拿大
+			</div>
+		</div>
+	</div>
+</div>	
+	<script src="task25.js"></script>
+</body>
+</html>

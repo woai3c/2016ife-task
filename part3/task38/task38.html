@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>UI组件之排序表格</title>
+	<style>
+	    * {
+			font-family: 微软雅黑;
+		}
+		table {
+			border-collapse:collapse;
+			text-align: center;
+		}
+		th {
+			color: #fff;
+			background: black;
+		}
+		th, td {
+			width: 160px;
+			height: 50px;
+			font-size: 20px;
+			border: 1px solid #d3d3d3;
+		}
+		.container {
+			display: inline;
+			margin-right: -25px;
+		}
+		.up {
+			border-bottom: 10px solid #fff;
+			cursor: pointer;
+			display: inline-block;
+			width: 0;
+			height: 0;
+			border-left: 7px solid transparent;
+			border-right: 7px solid transparent;
+			position: relative;
+			top: -12px;
+			left: 12px;
+		}
+		.down {
+			border-top: 10px solid #fff;
+			cursor: pointer;
+			display: inline-block;
+			width: 0;
+			height: 0;
+			border-left: 7px solid transparent;
+			border-right: 7px solid transparent;
+			position: relative;
+			top: 8px;
+			left: -2px;
+		}
+	</style>
+</head>
+<body>
+	<table id="tab"></table>
+<script src="task38.js"></script>
+</body>
+</html>

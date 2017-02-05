@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>JavaScript和树（二）</title>
+	<style>
+		div {
+			border: 1px solid black;
+			display: flex;
+			justify-content: space-between;
+			margin: auto;
+			background: #fff;
+		}
+		#root {
+			width: 1500px;
+			height: 250px;
+		}
+		.child1 {
+			width: 720px;
+			height: 200px;
+		}
+		.child2 {
+			width: 220px;
+			height: 150px;
+		}
+		.child3 {
+			width: 50px;
+			height: 80px;
+		}
+	</style>
+</head>
+<body>
+	<div id="root">1
+		<div class="child1">2
+			<div class="child2">3
+				<div class="child3">4</div>
+				<div class="child3">5</div>
+				<div class="child3">6</div>
+			</div>
+			<div class="child2">7
+				<div class="child3">8</div>
+				<div class="child3">9</div>
+				<div class="child3">10</div>
+			</div>
+			<div class="child2">a
+				<div class="child3">apple</div>
+				<div class="child3">c</div>
+				<div class="child3">apple</div>
+			</div>
+		</div>
+		<div class="child1">e
+			<div class="child2">f
+				<div class="child3">g</div>
+				<div class="child3">ab</div>
+				<div class="child3">ab</div>
+			</div>
+			<div class="child2">ee
+				<div class="child3">xw</div>
+				<div class="child3">w-resize</div>
+				<div class="child3">df</div>
+			</div>
+			<div class="child3">10</div>
+			<div class="child3">CAT</div>
+			<div class="child3">ee</div>
+			<div class="child3">CAT</div>
+		</div>
+	</div>
+	<button id="pre">前序</button>
+	<button id="last">后序</button>
+	<button id="wide">广度</button><br><br>
+	<input id="searchVal">
+	<p>输入查询值 然后选择"前后广"其中一种方式开始查询</p>
+	<script src="task23.js"></script>
+</body>
+</html>

@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>JavaScript和树（一）</title>
+	<style>
+		div {
+			border: 1px solid black;
+			display: flex;
+			justify-content: space-between;
+			margin: auto;
+			background: #fff;
+		}
+		#root {
+			width: 800px;
+			height: 250px;
+		}
+		.child1 {
+			width: 370px;
+			height: 200px;
+		}
+		.child2 {
+			width: 150px;
+			height: 150px;
+		}
+		.child3 {
+			width: 50px;
+			height: 80px;
+		}
+	</style>
+</head>
+<body>
+	<div id="root">
+		<div class="child1">
+			<div class="child2">
+				<div class="child3"></div>
+				<div class="child3"></div>
+			</div>
+			<div class="child2">
+				<div class="child3"></div>
+				<div class="child3"></div>
+			</div>
+		</div>
+		<div class="child1">
+			<div class="child2">
+				<div class="child3"></div>
+				<div class="child3"></div>
+			</div>
+			<div class="child2">
+				<div class="child3"></div>
+				<div class="child3"></div>
+			</div>
+		</div>
+	</div>
+	<button id="pre">前序</button>
+	<button id="mid">中序</button>
+	<button id="last">后序</button>
+	<button id="wide">广度</button>
+	<script src="task22.js"></script>
+</body>
+</html>

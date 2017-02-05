@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>表单（二）单个表单项的检验</title>
+	<style>
+		* {
+			font-family: 微软雅黑;
+			font-size: 20px;
+			font-style: bold;
+		}
+		#prompt {
+			font-size: 16px;
+			color: #a8a8a8;
+			padding-left: 70px;
+		}
+		input{
+			border: 2px solid lightblue;
+			border-radius: 5px;
+			width: 400px;
+		}
+		#btn {
+			color: #fff;
+			border: 2px solid #2F79BA;
+			background: #2F79BA;
+			border-radius: 5px;
+		}
+		li {
+			list-style: none;
+			text-indent: 2em;
+			width: 490px;
+		}
+		li span {
+			font-size: 14px;
+			color: #a8a8a8;
+			padding-left: 85px;
+		}
+		#submit {
+			text-align: right;
+		}
+		#sure {
+			text-indent: 0;
+		}
+	</style>
+</head>
+<body>
+	<ul>
+		<li>
+			<label>名称</label>
+			<input type="text" id="inputName"><br>
+			<span></span>
+		</li>
+		<li>
+			<label>密码</label>
+			<input type="password" id="inputPwd1"><br>
+			<span></span>
+		</li>
+		<li id="sure">
+			<label>确认密码</label>
+			<input type="password" id="inputPwd2"><br>
+			<span></span>
+		</li>
+		<li>
+			<label>邮箱</label>
+			<input type="email" id="mail"><br>
+			<span></span>
+		</li>
+		<li>
+			<label>手机</label>
+			<input type="tel" id="tel"><br>
+			<span></span>
+		</li>
+		<li id="submit">
+			<button id="btn">提交</button>
+		</li>
+	</ul>
+<script src="task30.js"></script>
+</body>
+</html>

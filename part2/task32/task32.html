@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>表单（四）实现表单自动生成工厂</title>
+	<style>
+		* {
+			font-family: 微软雅黑;
+			font-size: 20px;
+			font-style: bold;
+		}
+		#form input{
+			border: 2px solid lightblue;
+			border-radius: 5px;
+			margin-left: 5px;
+			width: 400px;
+		}
+		li {
+			list-style: none;
+			text-indent: 2em;
+			width: 490px;
+		}
+		li span {
+			font-size: 14px;
+			color: #a8a8a8;
+			padding-left: 85px;
+		}
+		#btn {
+			color: #fff;
+			border: 2px solid #2F79BA;
+			background: #2F79BA;
+			border-radius: 5px;
+		}
+		#submit {
+			text-align: right;
+		}
+		#sure {
+			text-indent: 0;
+		}
+		.style2 {
+			position: relative;
+			left: 410px;
+			top: -35px;
+		}
+	</style>
+</head>
+<body>
+	<div id="generator">
+		<label>名称</label>
+		<input type="checkbox" value="名称" checked>
+		<label>密码</label>
+		<input type="checkbox" value="密码">
+		<label>邮箱</label>
+		<input type="checkbox" value="邮箱">
+		<label>手机</label>
+		<input type="checkbox" value="手机"><br>
+		<label>样式一</label>
+		<input type="radio" name="style" checked value="one">
+		<label>样式二</label>
+		<input type="radio" name="style" value="two"><br>
+		<button id="creatBtn">生成表单</button>
+	</div>	
+	<ul id="form">
+	</ul>
+<script src="task32.js"></script>
+</body>
+</html>

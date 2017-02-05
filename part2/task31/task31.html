@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>表单（三）联动</title>
+	<style>
+		* {
+			font-size: 20px;
+			font-family: 微软雅黑;
+			margin: 10px;
+		}
+		#company {
+			display: none;
+		}
+		select {
+			width: 200px;
+		}
+		.choose {
+			margin-left: 120px;
+		}
+	</style>
+</head>
+<body>
+	<input class="choose" type="radio" name="student" checked>在校生</input>
+	<input class="choose" type="radio" name="student">非在校生</input><br>
+	<span>学校</span>
+	<select id="city">
+		<option>北京</option>
+		<option>天津</option>
+	</select>
+	<select id="school">
+		<option>北京大学</option>
+		<option>清华大学</option>		
+	</select>
+	<input type="text" id="company">
+<script>
+var $ = function(id) {
+	return document.getElementById(id);
+};
+var city = $("city"),
+	school = $("school"),
+	company = $("company"),
+	radios = document.getElementsByName("student"),
+	span = document.getElementsByTagName("span")[0],
+	selects = document.getElementsByTagName("select");
+	sourceData = {
+		"北京": ["北京大学", "清华大学"],
+		"天津": ["天津大学", "南开大学"]
+	};
+city.onchange = function() {
+	var content = "";
+	var schools = sourceData[city.value];
+	for (var i in schools) {
+		content += "<option>" + schools[i] + "</option>";
+	}
+	school.innerHTML = content;
+};
+radios[0].onchange = function() {
+	for (var i = 0, len = selects.length; i < len; i++) {
+		selects[i].style.display = "inline";
+	}
+	company.style.display = "none";
+	span.innerHTML = "学校";
+};	
+radios[1].onchange =function() {
+	for (var i = 0, len = selects.length; i < len; i++) {
+		selects[i].style.display = "none";
+	}
+	company.style.display = "inline";
+	span.innerHTML = "就业单位";
+};
+</script>
+</body>
+</html>

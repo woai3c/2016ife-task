@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>表单（一）单个表单项的检验</title>
+	<style>
+		* {
+			font-family: 微软雅黑;
+			font-size: 30px;
+			font-style: bold;
+		}
+		#prompt {
+			font-size: 16px;
+			color: #a8a8a8;
+			padding-left: 70px;
+		}
+		#inputVal {
+			border: 1px solid lightblue;
+			border-radius: 5px;
+		}
+		#btn {
+			color: #fff;
+			border: 2px solid #2F79BA;
+			background: #2F79BA;
+			border-radius: 5px;
+		}
+	</style>
+</head>
+<body>
+	<span>名称</span>
+	<input type="text" id="inputVal">
+	<button id="btn">验证</button><br>
+	<span id="prompt">必填，长度为4~16个字符</span>
+<script>
+var $ = function(id) {
+	return document.getElementById(id);
+};
+var inputVal = $("inputVal"),
+	btn = $("btn"),
+	prompt = $("prompt"),
+	re = /[\u4e00-\u9fa5]/g;
+btn.onclick = function() {
+	var str = inputVal.value.trim();
+	var len;
+	if (!str) {
+		prompt.innerHTML = "姓名不能为空";
+		inputVal.style.border = "2px solid red";
+		prompt.style.color = "red";
+		return;
+	}
+	var tempArry = str.match(re);
+	str = str.replace(re, "");
+	if (tempArry) {
+		len = tempArry.length*2 + str.length;
+    } 
+	else
+		len = str.length;
+	if (len < 4 || len > 16) {
+		prompt.innerHTML = "长度必须为4~16个字符";
+	}
+	else {
+		prompt.innerHTML = "格式正确";
+		inputVal.style.border = "2px solid lightgreen";
+		prompt.style.color = "lightgreen";
+	}	
+};
+</script>
+</body>
+</html>

@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>行星与飞船（三）</title>
+	<style>
+		* {
+			font-family: 微软雅黑;
+		}
+		#container {
+			margin: 0;
+			width: 800px;
+			height: 900px;
+			position: relative;
+		}
+		#universe {
+			background: black;
+			width: 100%;
+			height: 60%;
+		}
+		#planet {
+			width: 200px;
+			height: 200px;
+			border-radius: 50%;
+			background: blue;
+			position: absolute;
+			top: 160px;
+			left: 300px;
+		}
+		.ship {
+			width: 30px;
+			height: 30px;
+			border-radius: 50%;
+			background: #fff;
+			position: absolute;
+			top: 130px;
+			left: 385px;
+			text-align: center;
+			line-height: 30px;
+			font-size: 10px;
+		}
+		#logDiv {
+			width: 48%;
+			position: absolute;
+			left: 410px;
+			top: 580px;
+		}
+		#log {
+			resize: none;
+			background: black;
+			color: green;
+			border: 1px solid red;
+		}
+		#control {
+			font-size: 15px;
+		}
+		.energy {
+			background: red;
+			border-radius: 50%;
+			height: 100%;
+		}
+		#monDiv {
+			width: 500px;
+			height: 500px;
+			position: absolute;
+			top: 10px;
+			left: 820px;
+			border: 2px solid #a8a8a8;
+			text-align: center;
+		}
+		#monDiv table {
+			border-collapse:collapse;
+		}
+		#monDiv th {
+			background: #bbb;
+			width: 15%;
+		}
+		#monDiv td {
+			border: 1px solid #d3d3d3;
+		}
+	</style>
+</head>
+<body>
+	<div id="container">
+		<div id="universe">
+			<div id="planet"></div>
+		</div>
+		<div id="control">
+			<label>动力系统选择:</label>
+			<input type="radio" name="power" value="20"><span>前进号(速率30px/s, 能耗5%/s)</span>
+			<input type="radio" name="power" value="14"><span>奔腾号(速率50px/s, 能耗7%/s)</span>
+			<input type="radio" name="power" value="11"><span>超越号(速率80px/s, 能耗9%/s)</span>
+			
+			<br><label>能源系统选择:</label>
+			<input type="radio" name="energy" value="50"><span>劲量型(补充能源速度2%/s)</span>
+			<input type="radio" name="energy" value="33"><span>光能型(补充能源速度3%/s)</span>	
+			<input type="radio" name="energy" value="25"><span>永久型(补充能源速度4%/s)</span>	
+			<br><button id="creatShip" onclick="Commander.creat()" >创建飞船</button>
+		</div>
+		<div id="logDiv">
+			<textarea rows="13" cols="60" id="log"></textarea>
+		</div>
+	</div>
+	<div id="monDiv">
+		<table id="monitor">
+			<tr>
+				<th>飞船</th>
+				<th>动力系统</th>
+				<th>能源系统</th>
+				<th>当前飞行状态</th>
+				<th>剩余能耗</th>
+			</tr>
+		</table>
+	</div>
+<script src="task28.js"></script>
+</body>
+</html>

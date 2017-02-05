@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>UI组件之浮出层</title>
+	<style>
+	    * {
+			font-family: 微软雅黑;
+		}
+		#mask {
+			background: rgba(108, 108, 108, 0.5);
+			border: 1px solid red;
+			position: fixed;
+			top: 50%;
+			left: 50%;
+			transform: translate(-50%, -50%);
+			display: none;
+		}
+		#floatLayer {
+			width: 300px;
+			height: 150px;
+			background: #fff;
+			text-align: center;
+			border: 1px solid black;
+			top: 50%;
+			left: 50%;
+			position: absolute;
+			transform: translate(-50%, -50%);
+			border-radius: 3px;
+		}
+		#floatLayer span {
+			background: #d3d3d3;
+		}
+		#login {
+			width: 100px;
+			height: 50px;
+			background: #a8a8a8;
+			border-radius: 8px;
+			font-size: 30px;
+			margin-left: 50%;
+			transform: translate(-50%);
+		}
+		h2 {
+			background: #a8a8a8;
+			margin: 0;
+		}
+		.maskBtn {
+			width: 60px;
+			height: 30px;
+			border-radius: 3px;
+			margin: 20px;
+			background: green;
+			color: #fff;
+			font-size: 18px;
+		}
+	</style>
+</head>
+<body>
+	<button id="login">登陆</button>
+	<div id="mask">
+		<div id="floatLayer">
+			<h2>这是一个浮出层</h2>
+			<h3>这是一个浮出层</h3>
+			<button id="sure" class="maskBtn">确定</button>
+			<button id="cancel" class="maskBtn">取消</button>
+		</div>
+	</div>
+<script src="task37.js"></script>
+</body>
+</html>
