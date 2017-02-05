@@ -38,3 +38,11 @@
 33:http://htmlpreview.github.com/?https://github.com/woai3c/task/blob/master/part2/task33/task33.html
 34:http://htmlpreview.github.com/?https://github.com/woai3c/task/blob/master/part2/task34/task34.html
 35:http://htmlpreview.github.com/?https://github.com/woai3c/task/blob/master/part2/task35/task35.html
+
+										任务Part3 Demo 综合练习HTML，CSS，JavaScript
+37:http://htmlpreview.github.com/?https://github.com/woai3c/task/blob/master/part3/task37/task37.html
+38:http://htmlpreview.github.com/?https://github.com/woai3c/task/blob/master/part3/task38/task38.html
+39:http://htmlpreview.github.com/?https://github.com/woai3c/task/blob/master/part3/task39/task39.html
+40:http://htmlpreview.github.com/?https://github.com/woai3c/task/blob/master/part3/task40/task40.html
+41:http://htmlpreview.github.com/?https://github.com/woai3c/task/blob/master/part3/task41/task41.html
+42:http://htmlpreview.github.com/?https://github.com/woai3c/task/blob/master/part3/task42/task42.html
