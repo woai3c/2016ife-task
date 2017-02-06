@@ -68,7 +68,7 @@ Ship.prototype.fly = function() {   // 飞行时能量计数器
 			clearInterval(this.timer);
 			this.charge();
 		}
-		this.deg = (this.deg+1) % 360;
+		this.deg = (this.deg+ 1/(this.id + 2)) % 360;
 		var b = Math.sin(this.deg * Math.PI / 180) * this.r;
 		var a = Math.cos(this.deg * Math.PI / 180) * this.r;
 		a = a + x;
