@@ -1,5 +1,6 @@
                                          百度前端技术学院2016春季任务
                                        https://ife.baidu.com/task/all
+									   Demo 请使用geogle浏览器、360极速浏览器等webkit内核浏览器观看
                                        任务Part1 Demo(html及css不含js代码)
 一:http://htmlpreview.github.com/?https://github.com/woai3c/task/blob/master/part1/task1.html 
 二:http://htmlpreview.github.com/?https://github.com/woai3c/task/blob/master/part1/task2.html
