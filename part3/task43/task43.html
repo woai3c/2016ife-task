@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>图库</title>
+    <link rel="stylesheet" href="task43.css">
+    <script src="../../jquery-3.1.1.min.js"></script>
+    <script src="task43.js"></script>
+</head>
+<body>
+    <div id="container"></div>
+    <script>
+        var arry = ["images/01.jpg", "images/02.jpg", "images/03.jpg", "images/04.jpg", "images/05.jpg", "images/06.jpg"];
+        var imgArry = [];
+        var len = Math.floor(Math.random()*6 + 1); // 随机输出图片的数量
+        for (var i = 0; i < len; i++) {
+            imgArry.push(arry[i]);
+        }
+        $("#container").creatGallery(imgArry).init();   // 根据图片的数量创建图库
+    </script>
+</body>
+</html>

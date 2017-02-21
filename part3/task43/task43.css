@@ -1,0 +1,80 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+.layout {
+    width: 800px;
+    height: 450px;
+    position: relative;
+    object-fit: cover;
+    margin: auto;
+    border: 3px solid red;
+}
+.layout1 img{
+    width: 100%;
+    height: 100%;
+}
+
+.layout2 img {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+}
+.layout2 img:nth-child(2) {
+    -webkit-clip-path: polygon(67% 0, 33% 100%, 100% 100%, 100% 0);
+}
+.layout3 img:nth-child(n+1) {
+    width: 33%;
+    height: 50%;
+    float: right;
+}
+.layout3 img:nth-child(1) {
+    width: 67%;
+    height: 100%;
+    float: left;
+}
+.layout4 img {
+    width: 50%;
+    height: 50%;
+}
+.layout4 img:nth-child(odd) {
+    float: left;
+}
+.layout4 img:nth-child(even) {
+    float: right;
+}
+.layout5 img:nth-child(1) {
+    float: left;
+    width: 66.66%;
+    height: 66.66%;
+}
+.layout5 img:nth-child(2) {
+    float: right;
+    width: 33.33%;
+    height: 33.33%;
+}
+.layout5 img:nth-child(3) {
+    float: right;
+    width: 33.33%;
+    height: 66.66%;
+}
+.layout5 img:nth-child(4) {
+    float: left;
+    width: 33.33%;
+    height: 33.33%;
+}
+.layout5 img:nth-child(5) {
+    float: left;
+    width: 33.33%;
+    height: 33.33%;
+}
+.layout6 img:nth-child(n) {
+    float: left;
+    width: 33.33%;
+    height: 33.33%;
+}
+.layout6 img:nth-child(1) {
+    float: left;
+    width: 66.66%;
+    height: 66.66%;
+}
