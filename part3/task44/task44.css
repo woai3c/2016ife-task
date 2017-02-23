@@ -1,0 +1,48 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 微软雅黑;
+}
+#container {
+    margin: auto;
+    font-size: 0;
+    position: relative;
+    transition: all 1s;
+}
+.box {
+    margin: auto;
+    display: inline-block;
+    position: absolute;
+}
+img {
+    width: 100%;
+    height: 100%;
+}
+input {
+    width: 200px;
+    height: 20px;
+    border-radius: 3px;
+    color: #d3d3d3;
+}
+button {
+    width: 50px;
+    height: 25px;
+    color: #fff;
+    background: #f00;
+    border: 1px solid #f00;
+    border-radius: 3px;
+}
+.floatLay {
+    background: rgba(0,0,0,0.8);
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: none;
+}
+.floatLay div {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
