@@ -47,3 +47,5 @@
 40:http://htmlpreview.github.com/?https://github.com/woai3c/2016ife-task/blob/master/part3/task40/task40.html
 41:http://htmlpreview.github.com/?https://github.com/woai3c/2016ife-task/blob/master/part3/task41/task41.html
 42:http://htmlpreview.github.com/?https://github.com/woai3c/2016ife-task/blob/master/part3/task42/task42.html
+43:http://htmlpreview.github.com/?https://github.com/woai3c/2016ife-task/blob/master/part3/task43/task43.html
+44:http://htmlpreview.github.com/?https://github.com/woai3c/2016ife-task/blob/master/part3/task44/task44.html
