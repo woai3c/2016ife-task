@@ -69,7 +69,8 @@ $(function(){
             return img;
         },
         getColor: function() {
-            return Math.floor(Math.random()*0xffffff+1).toString(16);   // 1个16进制数颜色
+            var color = Math.floor(Math.random()*0xffffff+1).toString(16);   // 1个16进制数颜色
+            return color.length>5?color:color+="0";
         },
         getRandom: function() {                                         // 随机获取高度
             while (true) {
