@@ -70,15 +70,13 @@ $(function(){
         },
         getColor: function() {
             var color = Math.floor(Math.random()*0xffffff+1).toString(16);   // 1个16进制数颜色
-            return color.length>5?color:color+="0";
+            while (color.length < 6) {
+                color += "0";
+            }
+            return color;
         },
         getRandom: function() {                                         // 随机获取高度
-            while (true) {
-                var height = Math.floor(Math.random()*6+1)*100;
-                if (height >= 150 && height <= 600) {
-                    return height;
-                }
-            }
+            return Math.floor(Math.random()*450+150);
         },
         getMin: function(arry) {                                        // 一个函数 用来获取数组中的最小值 reduce()为数组方法 请自行百度
             return arry.reduce(function(a,b){
