@@ -1,0 +1,29 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 微软雅黑;
+}
+#container {
+  margin: 0 auto;
+}
+.box {
+    display: inline-block;
+    box-sizing:border-box;
+}
+img {
+    height: 100%;
+}
+.floatLay {
+    background: rgba(0,0,0,0.8);
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: none;
+}
+.floatLay div {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
