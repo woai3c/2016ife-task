@@ -1,7 +1,8 @@
-                                         百度前端技术学院2016春季任务
-                                       https://ife.baidu.com/2016ife-task/all<br>
-                                       Demo 请使用geogle浏览器、360极速浏览器等webkit内核浏览器观看
-                                       任务Part1 Demo(html及css不含js代码)
+# 百度前端技术学院2016春季任务
+## https://ife.baidu.com/2016ife-task/all
+### Demo 请使用geogle浏览器、360极速浏览器等webkit内核浏览器观看
+
+## 任务Part1 Demo(html及css不含js代码)
 一:http://htmlpreview.github.com/?https://github.com/woai3c/2016ife-task/blob/master/part1/task1.html 
 二:http://htmlpreview.github.com/?https://github.com/woai3c/2016ife-task/blob/master/part1/task2.html
 三:http://htmlpreview.github.com/?https://github.com/woai3c/2016ife-task/blob/master/part1/task3.html
@@ -15,7 +16,7 @@
 11:http://htmlpreview.github.com/?https://github.com/woai3c/2016ife-task/blob/master/part1/task11/task11.html
 12:http://htmlpreview.github.com/?https://github.com/woai3c/2016ife-task/blob/master/part1/task12.html
 
-                                        任务Part2 Demo JS基础
+## 任务Part2 Demo JS基础
 13:http://htmlpreview.github.com/?https://github.com/woai3c/2016ife-task/blob/master/part2/task13/task13.html
 14:http://htmlpreview.github.com/?https://github.com/woai3c/2016ife-task/blob/master/part2/task14/task14.html
 15:http://htmlpreview.github.com/?https://github.com/woai3c/2016ife-task/blob/master/part2/task15/task15.html
@@ -40,7 +41,7 @@
 34:http://htmlpreview.github.com/?https://github.com/woai3c/2016ife-task/blob/master/part2/task34/task34.html
 35:http://htmlpreview.github.com/?https://github.com/woai3c/2016ife-task/blob/master/part2/task35/task35.html
 
-                                        任务Part3 Demo 综合练习HTML，CSS，JavaScript
+## 任务Part3 Demo 综合练习HTML，CSS，JavaScript
 37:http://htmlpreview.github.com/?https://github.com/woai3c/2016ife-task/blob/master/part3/task37/task37.html
 38:http://htmlpreview.github.com/?https://github.com/woai3c/2016ife-task/blob/master/part3/task38/task38.html
 39:http://htmlpreview.github.com/?https://github.com/woai3c/2016ife-task/blob/master/part3/task39/task39.html
