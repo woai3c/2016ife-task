@@ -1,5 +1,4 @@
-# 百度前端技术学院2016春季任务
-## https://ife.baidu.com/2016ife-task/all
+# 百度前端技术学院2016春季任务(http://ife.baidu.com/2016/task/all)
 ### Demo 请使用geogle浏览器、360极速浏览器等webkit内核浏览器观看
 
 ## 任务Part1 Demo(html及css不含js代码)
